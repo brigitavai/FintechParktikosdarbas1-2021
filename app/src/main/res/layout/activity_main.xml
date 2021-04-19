@@ -28,4 +28,16 @@
         app:layout_constraintVertical_bias="0.354"
         android:onClick="OnBtnclick"/>
 
+    <Button
+        android:id="@+id/btnMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_do_smth2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746"
+        android:onClick="OnBtnclick2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
