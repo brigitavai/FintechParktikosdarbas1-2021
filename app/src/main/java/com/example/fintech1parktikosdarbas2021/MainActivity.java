@@ -27,6 +27,6 @@ public class MainActivity extends AppCompatActivity {
         this.tvMain.setText(R.string.changed_label_caption);
     }
     public void OnBtnclick2(View view) {
-        this.tvMain.setTextColor();
+        this.tvMain.setTextColor(Color.GREEN);
     }
 }
